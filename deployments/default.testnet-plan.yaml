@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://stacks-node-api.testnet.stacks.co"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: time-vault-nft
+            expected-sender: ST1ZG15BE3PKAJ5GAHJ47V7KGXBKXSPKB20JXWGXJ
+            cost: 89430
+            path: contracts/time-vault-nft.clar
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.0"
