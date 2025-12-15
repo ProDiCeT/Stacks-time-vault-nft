@@ -10,7 +10,7 @@ plan:
       transactions:
         - contract-publish:
             contract-name: time-vault-nft
-            expected-sender: ST1ZG15BE3PKAJ5GAHJ47V7KGXBKXSPKB20JXWGXJ
+            expected-sender: ST1ZT96KC96XN2XWE61HMH5NG25ZJH9JK5BB5PGD0
             cost: 89430
             path: contracts/time-vault-nft.clar
             anchor-block-only: true
